@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simple page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    </head>
+    <body>
+        <video autoplay muted loop class="background-video" >
+            <source src="{% static 'videos/background.mp4' %}" type="video/mp4">
+        </video>
+        <div class="header">
+            <div class="header-image">
+                <img src="{% static 'images/spam.png' %}" alt="">
+            </div>
+            <div class="header-head">
+                    Spam Detector
+            </div>
+        </div>
+        <div class="container">
+                <div class="menu-container">
+                    <div class="menu-header">Menu</div>
+                    <div class="menu-body">
+                        <div id="spam-detect">Detect a Spam</div>
+                        <div id="spam-record">Recent Records</div>
+                        <div id="scores">Scores</div>
+                        <div id="author-detail">About The Author</div>
+                    </div>
+                </div>
+                <div class="menu-content">
+                    <div class="test-spam">
+                        <textarea class="text-area" placeholder="Got a Spam Message ? ...Check it out here"></textarea>
+                    </div>
+                    <div class="action-buttons">
+                        <div><button class="test-button">Test</button></div>
+                        <div><button class="reset-button" >Reset</button></div>
+                    </div>
+                </div>
+            </div>
+        <div class="loading">
+            <img src="{% static 'images/loading.gif' %}" alt="">
+        </div>
+        <script src="{% static 'js/script.js' %}"></script>
+    </body>
+</html>

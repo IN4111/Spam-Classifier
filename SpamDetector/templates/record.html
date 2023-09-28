@@ -1,0 +1,21 @@
+{% load static %}
+<div class="spam-records">
+                {% for record in records %}
+                <div class="record">
+                    <div class="content">
+                        {{record.message}}
+                    </div>
+                    <div class="resut-date">
+                        <div class="result">
+                            <img src={% if record.spam %}"{% static "images/wrong.png" %}"{% else %}"{% static "images/correct.png" %}"{% endif %} alt="">
+                            <b>{% if record.spam %}Spam{% else %}Not a Spam{% endif %}</b>
+                        </div>
+                        <b>Result Created At :</b>
+                        <div class="date">
+                            {{record.createdAt}}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+</div>
+                
