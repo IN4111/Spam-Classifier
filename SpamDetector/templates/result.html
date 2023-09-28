@@ -1,0 +1,6 @@
+{% load static %}
+<div class="toast-popup">
+    <img src={% if result %}"{% static "images/wrong.png" %}"{% else %}"{% static "images/correct.png" %}"{% endif %} alt="image">
+    <b>{% if result %}Its a Spam{% else %}Not a Spam{% endif %}</b>
+</div>
+
