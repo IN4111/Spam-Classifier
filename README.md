@@ -3,7 +3,7 @@ A Web App to Detect,Classify and Store Spam and Non Spam Messages.
 # Demo Video:
 
 
-https://github.com/IN4111/Spam-Classifier/assets/123793292/3cf7412b-48e3-4339-86c7-2fc0de45a99d
+https://github.com/IN4111/Spam-Classifier/assets/123793292/18fd1030-a590-4e8a-9cbc-7fa3a9a0bca0
 
 
 # Install Packages
