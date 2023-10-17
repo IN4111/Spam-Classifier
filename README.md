@@ -9,7 +9,9 @@ A Web App to Detect,Classify and Store Spam and Non Spam Messages.
 <img width="1166" alt="271363806-b7e0ae57-8b28-4c60-9e70-123db33368cf" src="https://github.com/IN4111/Spam-Classifier/assets/123793292/e386e6e6-afce-45fd-a52e-2ef88ba170b3">
 <img width="1166" alt="271363433-00671f69-a2a0-4621-8a91-a3bea0eb461b" src="https://github.com/IN4111/Spam-Classifier/assets/123793292/1e0870bb-8ce2-4d05-9636-750a3210ff23">
 # Demo Video:
+
 https://github.com/IN4111/Spam-Classifier/assets/123793292/764313eb-b83e-4f39-989c-8aec98483a50
+
 # Install Packages
 Install all required modules using ```pip install -r requirements.txt```
 # Start Server
